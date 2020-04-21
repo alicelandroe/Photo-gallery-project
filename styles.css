@@ -1,3 +1,4 @@
+/* mobile first design */
 .searchbox {
     width: 100%;
     display: flex;
@@ -16,13 +17,42 @@
 
 .images {
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: space-evenly;
 }
 
+.images a {
+    width: 40%;
+    padding-bottom: 20px;
+}
+
 .images img {
-    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+
+    .images a {
+        width: 23%;
+        padding-bottom: 20px;
+        margin: 2%;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    
+    .images {
+        width: 80%;
+    }
+
+    .images a {
+        width: 20%;
+        padding-bottom: 20px;
+    }
 }
