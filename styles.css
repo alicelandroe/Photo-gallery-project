@@ -34,6 +34,14 @@
     width: 100%;
 }
 
+.lb-data .lb-caption {
+    font-size: 1.2em !important;
+}
+
+.lb-dataContainer {
+    margin-top: 10px !important;
+}
+
 @media (min-width: 768px) {
 
     .images a {
@@ -41,9 +49,7 @@
         padding-bottom: 20px;
         margin: 2%;
     }
-
 }
-
 
 @media (min-width: 1024px) {
     
@@ -54,5 +60,9 @@
     .images a {
         width: 20%;
         padding-bottom: 20px;
+    }
+
+    .lb-data .lb-caption {
+        font-size: 1em !important;
     }
 }

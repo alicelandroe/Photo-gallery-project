@@ -15,3 +15,9 @@ function onUserInput() {
         };
     }
 }
+
+// Mobile changes to lightbox
+
+lightbox.option({
+    'alwaysShowNavOnTouchDevices': true,
+  })
